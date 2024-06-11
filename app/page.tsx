@@ -1,5 +1,5 @@
 function Home() {
-  return <main className="dark:bg-body-dark"></main>;
+  return <main className="h-screen">body</main>;
 }
 
 export default Home;

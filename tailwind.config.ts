@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "selector",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -27,6 +28,14 @@ module.exports = {
     extend: {
       colors: {
         "body-dark": "#171717",
+        "body-light": "#e5e5e5",
+        "navbar-light": "#dbdedd",
+        "navbar-dark": "#262626",
+        "navbar-light-b": "#d2d5d5",
+        "blue-text": "#242736",
+        "border-grey": "#404040",
+        "site-orange": "#ec5c29",
+        "site-text-gray": "#808080",
       },
       backgroundImage: {},
       fontFamily: {

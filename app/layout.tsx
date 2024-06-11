@@ -1,5 +1,7 @@
 import React from "react";
 import "./globals.css";
+import { Navbar } from "@components";
+import Body from "./Body";
 
 export const metadata = {
   title: "Ibrahim Ahmed",
@@ -9,7 +11,7 @@ export const metadata = {
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html lang="en" className="w-full overflow-x-hidden">
-      <body className="w-full overflow-x-hidden">{children}</body>
+      <Body>{children}</Body>
     </html>
   );
 };
