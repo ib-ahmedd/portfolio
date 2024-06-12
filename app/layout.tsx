@@ -10,7 +10,7 @@ export const metadata = {
 
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
-    <html lang="en" className="w-full overflow-x-hidden">
+    <html lang="en" className="w-full overflow-x-hidden scroll-smooth">
       <Body>{children}</Body>
     </html>
   );

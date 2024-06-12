@@ -1,4 +1,4 @@
-import { ProjectCardProps } from "@types";
+import { ProjectCardProps, SkillCardProps } from "@types";
 
 export const projectsArray: ProjectCardProps[] = [
   {
@@ -37,4 +37,20 @@ export const projectsArray: ProjectCardProps[] = [
     bgClassName: "promtopia-bg",
     link: "http://promtopia-omega.vercel.app",
   },
+];
+
+export const skillsArray: SkillCardProps[] = [
+  { title: "HTML", image: "/images/skills/html.png" },
+  { title: "CSS", image: "/images/skills/css.png" },
+  { title: "Javascript", image: "/images/skills/javascript.png" },
+  { title: "Jquery", image: "/images/skills/jquery.png" },
+  { title: "NodeJS", image: "/images/skills/nodejs.png" },
+  { title: "ReactJS", image: "/images/skills/react.png" },
+  { title: "NextJS", image: "/images/skills/nextjs.png" },
+  { title: "Bootstrap", image: "/images/skills/bootstrap.png" },
+  { title: "Tailwind", image: "/images/skills/tailwind.png" },
+  { title: "PostgresSQL", image: "/images/skills/postgres.png" },
+  { title: "MongoDB", image: "/images/skills/mongodb.png" },
+  { title: "Dfinity", image: "/images/skills/dfinity.png" },
+  { title: "Github", image: "/images/skills/github.png" },
 ];

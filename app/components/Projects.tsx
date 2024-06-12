@@ -30,7 +30,7 @@ function Projects() {
   }
   return (
     <section
-      className="w-full flex flex-col px-4 sm:px-8 xl:px-20 py-20 md:py-40 bg-navbar-light dark:bg-navbar-dark"
+      className="w-full flex flex-col px-4 sm:px-8 xl:px-20 py-20 md:py-40"
       id="projects"
     >
       <h2 className="text-3xl md:text-4xl font-bold mb-4">Projects</h2>

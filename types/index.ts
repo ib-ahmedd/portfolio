@@ -9,3 +9,8 @@ export interface ProjectCardProps {
   bgClassName: string;
   link: string;
 }
+
+export interface SkillCardProps {
+  title: string;
+  image: string;
+}
