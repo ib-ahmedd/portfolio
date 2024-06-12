@@ -18,12 +18,12 @@ function Navbar({ toggleMode, darkMode }: NavBarProps) {
     setNavOpen(false);
   }
   return (
-    <nav className="bg-navbar-light dark:bg-navbar-dark flex justify-between items-center w-full sm:w-4/5 xl:w-2/4 py-2 px-8 border border-navbar-light-b dark:border-border-grey mx-auto mt-8 rounded-full shadow-xl">
+    <nav className="bg-navbar-light dark:bg-navbar-dark flex justify-between items-center w-[95%] sm:w-4/5 xl:w-2/4 py-2 px-8 border border-navbar-light-b dark:border-border-grey mx-auto mt-8 rounded-full shadow-xl">
       <a href="" className="font-bold text-xl">
         Ibrahim Ahmed
       </a>
       <div className=" hidden md:flex gap-8">
-        <NavLink path="#home" title="Home" />
+        <NavLink path="/" title="Home" />
         <NavLink path="#projects" title="Projects" />
         <NavLink path="#services" title="Services" />
       </div>
@@ -41,7 +41,7 @@ function Navbar({ toggleMode, darkMode }: NavBarProps) {
           >
             <span
               className={`bg-site-orange w-1/2 transition duration-200 rounded-full ${
-                darkMode ? "translate-x-0" : "translate-x-full"
+                darkMode ? "translate-x-full" : "translate-x-0"
               }`}
             >
               <FontAwesomeIcon icon={darkMode === true ? faMoon : faSun} />

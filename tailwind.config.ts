@@ -35,6 +35,7 @@ module.exports = {
         "blue-text": "#242736",
         "border-grey": "#404040",
         "site-orange": "#ec5c29",
+        "site-orange-hover": "#ef7449",
         "site-text-gray": "#808080",
       },
       backgroundImage: {},

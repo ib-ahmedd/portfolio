@@ -10,7 +10,7 @@ function Body({ children }: { children: React.ReactNode }) {
   }
   return (
     <body
-      className={`w-full overflow-x-hidden bg-body-light transition duration-100 dark:bg-body-dark text-blue-text dark:text-white px-4 ${
+      className={`w-full overflow-x-hidden bg-body-light transition duration-100 dark:bg-body-dark text-blue-text dark:text-white ${
         darkMode && "dark"
       }`}
     >

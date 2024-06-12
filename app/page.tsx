@@ -1,9 +1,10 @@
-import { Hero } from "@components";
+import { Hero, Projects } from "./components";
 
 function Home() {
   return (
-    <main className="h-screen">
+    <main className="flex flex-col items-center">
       <Hero />
+      <Projects />
     </main>
   );
 }

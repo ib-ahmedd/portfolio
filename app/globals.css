@@ -3,3 +3,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.plashoes-bg {
+  @apply bg-gradient-to-tr from-white to-[#6b4739] via-[#293438];
+}
+
+.urban-nest-bg {
+  @apply bg-gradient-to-l from-[#ffc03d] to-slate-800;
+}
+
+.roadrunner-bg {
+  @apply bg-gradient-to-t from-[#e1e6eb] to-[#042c5b];
+}
+
+.travel-tourism-bg {
+  @apply bg-gradient-to-r from-slate-400 via-slate-200 to-slate-400;
+}
+
+.coffee-shop-bg {
+  @apply bg-gradient-to-t from-[#7a5539] via-[#5c6a6d] to-[#abacae];
+}
+
+.promtopia-bg {
+  @apply bg-gradient-to-b from-[#ee700c] via-[#fbfbfb] to-[#fbfbfb];
+}
