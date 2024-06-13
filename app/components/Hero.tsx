@@ -4,7 +4,10 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="flex flex-col-reverse lg:flex-row items-center w-full xl:w-4/5 py-20 md:py-32 px-4 sm:px-8 mx-auto">
+    <section
+      id="home"
+      className="flex flex-col-reverse lg:flex-row items-center w-full xl:w-4/5 py-20 md:py-32 px-4 sm:px-8 mx-auto"
+    >
       <div className="w-full md:w-3/5 lg:w-1/2 flex justify-center lg:justify-start">
         <div className="relative w-96 h-96">
           <Image
@@ -12,6 +15,7 @@ function Hero() {
             alt="developer"
             fill
             className="object-contain"
+            priority
           />
         </div>
       </div>
@@ -28,7 +32,7 @@ function Hero() {
         </p>
         <Link
           href="#contact"
-          className="text-white bg-site-orange p-2 w-fit rounded-lg"
+          className="text-white bg-site-orange hover:bg-site-orange-hover p-2 w-fit rounded-lg"
         >
           Contact me
         </Link>

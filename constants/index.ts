@@ -1,4 +1,12 @@
-import { ProjectCardProps, SkillCardProps } from "@types";
+import { faSearchengin } from "@fortawesome/free-brands-svg-icons";
+import {
+  faChalkboardUser,
+  faCode,
+  faFileCircleCheck,
+  faGears,
+  faPalette,
+} from "@fortawesome/free-solid-svg-icons";
+import { ProjectCardProps, ServiceCardProps, SkillCardProps } from "@types";
 
 export const projectsArray: ProjectCardProps[] = [
   {
@@ -53,4 +61,37 @@ export const skillsArray: SkillCardProps[] = [
   { title: "MongoDB", image: "/images/skills/mongodb.png" },
   { title: "Dfinity", image: "/images/skills/dfinity.png" },
   { title: "Github", image: "/images/skills/github.png" },
+];
+
+export const servicesArray: ServiceCardProps[] = [
+  {
+    icon: faPalette,
+    title: "Design",
+    note: "Crispy, responsive and pixel perfect web applications for better first impression to users.",
+  },
+  {
+    icon: faCode,
+    title: "Development",
+    note: "Develop performant, efficient and functional wesbites, and populate site content.",
+  },
+  {
+    icon: faGears,
+    title: "Maintenance",
+    note: "Ensure your site is working at full capacity and monitoring it's overall health and performance.",
+  },
+  {
+    icon: faFileCircleCheck,
+    title: "Documentation",
+    note: "Easily accessible information on website and answers to important question pertaining website.",
+  },
+  {
+    icon: faSearchengin,
+    title: "SEO",
+    note: "Getting traffic from search engines and improve your website's position search result pages.",
+  },
+  {
+    icon: faChalkboardUser,
+    title: "Mentoring",
+    note: "Supporting, influencing and guiding young people interested in starting tech careers.",
+  },
 ];

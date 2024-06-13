@@ -1,11 +1,10 @@
 import React from "react";
 import "./globals.css";
-import { Navbar } from "@components";
 import Body from "./Body";
 
 export const metadata = {
   title: "Ibrahim Ahmed",
-  description: "Build Your Dream",
+  description: "web developer portfolio",
 };
 
 const RootLayout = ({ children }: RootLayoutProps) => {

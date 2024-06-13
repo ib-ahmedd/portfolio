@@ -1,3 +1,5 @@
+import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
+
 export interface NavLinkProps {
   path: string;
   title: string;
@@ -13,4 +15,10 @@ export interface ProjectCardProps {
 export interface SkillCardProps {
   title: string;
   image: string;
+}
+
+export interface ServiceCardProps {
+  icon: IconDefinition;
+  title: string;
+  note: string;
 }

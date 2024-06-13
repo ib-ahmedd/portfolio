@@ -8,9 +8,10 @@ function Body({ children }: { children: React.ReactNode }) {
   function toggleMode() {
     setDarkMode((prev) => !prev);
   }
+
   return (
     <body
-      className={`w-full overflow-x-hidden bg-body-light transition duration-100 dark:bg-body-dark text-blue-text dark:text-white ${
+      className={`relative w-full bg-body-light transition duration-100 dark:bg-body-dark text-blue-text dark:text-white ${
         darkMode && "dark"
       }`}
     >

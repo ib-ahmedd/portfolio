@@ -1,4 +1,4 @@
-import { Hero, Projects, Skills } from "./components";
+import { Hero, Projects, Services, Skills } from "./components";
 
 function Home() {
   return (
@@ -6,6 +6,7 @@ function Home() {
       <Hero />
       <Skills />
       <Projects />
+      <Services />
     </main>
   );
 }
