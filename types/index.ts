@@ -22,3 +22,11 @@ export interface ServiceCardProps {
   title: string;
   note: string;
 }
+
+export interface HeroProps {
+  viewRef: (node?: Element | null | undefined) => void;
+}
+
+export interface ScrollTopBtnProps {
+  inView: boolean;
+}

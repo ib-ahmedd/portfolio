@@ -1,8 +1,10 @@
+"use client";
+import { HeroProps } from "@types";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-function Hero() {
+function Hero({ viewRef }: HeroProps) {
   return (
     <section
       id="home"
@@ -22,7 +24,7 @@ function Hero() {
       <div className="w-full md:w-3/5 lg:w-1/2 text-center lg:text-left flex flex-col items-center lg:items-start gap-8">
         <span className="flex items-center gap-2 w-fit p-2 bg-navbar-light dark:bg-navbar-dark rounded-full border border-navbar-light-b dark:border-border-grey text-sm">
           <div className="w-3 h-3 rounded-full bg-green-700"></div>
-          <p>Available for hiring!</p>
+          <p ref={viewRef}>Available for hiring!</p>
         </span>
 
         <h1 className="text-5xl md:text-7xl font-bold">Web Developer</h1>
