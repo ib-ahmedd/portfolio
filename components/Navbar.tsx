@@ -10,7 +10,7 @@ import {
 import ScreenCover from "./ScreenCover";
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
-import { navLinks, navLinksArray } from "@constants";
+import { navLinksArray } from "@constants";
 
 function Navbar({ toggleMode, darkMode }: NavBarProps) {
   const [navOpen, setNavOpen] = useState(false);
