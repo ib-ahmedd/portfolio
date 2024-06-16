@@ -85,6 +85,7 @@ function Contact() {
             e.preventDefault();
             handleSendMessage();
           }}
+          data-aos="zoom-out"
         >
           <h2 className="text-3xl font-bold">Get in touch</h2>
           <p className="text-lg">

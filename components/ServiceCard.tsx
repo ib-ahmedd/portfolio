@@ -3,7 +3,10 @@ import { ServiceCardProps } from "@types";
 
 function ServiceCard({ icon, title, note }: ServiceCardProps) {
   return (
-    <article className="w-full md:w-[48%] mb-12 flex items-start gap-4">
+    <article
+      className="w-full md:w-[48%] mb-12 flex items-start gap-4"
+      data-aos="fade-up"
+    >
       <span className="text-white text-2xl bg-site-orange py-2 px-3 rounded-lg">
         <FontAwesomeIcon icon={icon} />
       </span>

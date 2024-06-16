@@ -1,6 +1,8 @@
 "use client";
 import { Footer, Navbar } from "@components";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Body({ children }: { children: React.ReactNode }) {
   const [darkMode, setDarkMode] = useState(true);
@@ -8,6 +10,13 @@ function Body({ children }: { children: React.ReactNode }) {
   function toggleMode() {
     setDarkMode((prev) => !prev);
   }
+
+  useEffect(() => {
+    Aos.init({
+      duration: 200,
+      easing: "ease-in-out",
+    });
+  }, []);
 
   return (
     <body
