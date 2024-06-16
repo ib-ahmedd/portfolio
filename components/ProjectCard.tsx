@@ -10,7 +10,7 @@ function ProjectCard({ title, image, bgClassName, link }: ProjectCardProps) {
       <img
         src={image}
         alt={title}
-        className={`${bgClassName} rounded-3xl hover:scale-105 transition duration-150`}
+        className={`${bgClassName} rounded-3xl hover:scale-105 transition duration-150 shadow-lg hover:shadow-xl`}
       />
       <p className="text-xl md:text-2xl text-site-text-gray font-medium hover:text-blue-text dark:hover:text-white">
         {title}

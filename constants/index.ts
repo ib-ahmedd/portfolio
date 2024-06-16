@@ -1,12 +1,24 @@
-import { faSearchengin } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faInstagram,
+  faSearchengin,
+  faXTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 import {
   faChalkboardUser,
   faCode,
   faFileCircleCheck,
   faGears,
   faPalette,
+  faX,
 } from "@fortawesome/free-solid-svg-icons";
-import { ProjectCardProps, ServiceCardProps, SkillCardProps } from "@types";
+import {
+  LabeledInputProps,
+  ProjectCardProps,
+  ServiceCardProps,
+  SkillCardProps,
+  SocialMediaLinksProps,
+} from "@types";
 
 export const projectsArray: ProjectCardProps[] = [
   {
@@ -94,4 +106,17 @@ export const servicesArray: ServiceCardProps[] = [
     title: "Mentoring",
     note: "Supporting, influencing and guiding young people interested in starting tech careers.",
   },
+];
+
+export const inputsArray: LabeledInputProps[] = [
+  { label: "Full name", inputName: "name", type: "text", max: 30 },
+  { label: "Email address", inputName: "email", type: "email", max: 30 },
+  { label: "Phone number", inputName: "phone", type: "tel", max: 11 },
+  { label: "Subject", inputName: "subject", type: "text", max: 30 },
+];
+
+export const socialMediaLinksArray: SocialMediaLinksProps[] = [
+  { icon: faGithub, path: "a" },
+  { icon: faInstagram, path: "b" },
+  { icon: faXTwitter, path: "c" },
 ];

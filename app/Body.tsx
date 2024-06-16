@@ -1,5 +1,5 @@
 "use client";
-import { Navbar } from "@components";
+import { Footer, Navbar } from "@components";
 import { useState } from "react";
 
 function Body({ children }: { children: React.ReactNode }) {
@@ -17,6 +17,7 @@ function Body({ children }: { children: React.ReactNode }) {
     >
       <Navbar toggleMode={toggleMode} darkMode={darkMode} />
       {children}
+      <Footer />
     </body>
   );
 }
