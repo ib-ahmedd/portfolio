@@ -9,11 +9,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import ScreenCover from "./ScreenCover";
 import { useEffect, useRef, useState } from "react";
+import { usePathname } from "next/navigation";
+import { navLinks, navLinksArray } from "@constants";
 
 function Navbar({ toggleMode, darkMode }: NavBarProps) {
   const [navOpen, setNavOpen] = useState(false);
   const [popUpNav, setPopUpNav] = useState(false);
   const scrollPosition = useRef(0);
+  const pathname = usePathname();
 
   function closeMenu() {
     setNavOpen(false);
@@ -42,6 +45,10 @@ function Navbar({ toggleMode, darkMode }: NavBarProps) {
     };
   }, []);
 
+  useEffect(() => {
+    setNavOpen(false);
+  }, [pathname]);
+
   return (
     <>
       <nav
@@ -53,10 +60,9 @@ function Navbar({ toggleMode, darkMode }: NavBarProps) {
           Ibrahim Ahmed
         </a>
         <div className=" hidden md:flex gap-8">
-          <NavLink path="#home" title="Home" />
-          <NavLink path="#skills" title="Skills" />
-          <NavLink path="#projects" title="Projects" />
-          <NavLink path="#services" title="Services" />
+          {navLinksArray.map((item) => (
+            <NavLink key={item.title} {...item} />
+          ))}
         </div>
         <div className="flex gap-4 items-center">
           <a
@@ -104,14 +110,16 @@ function Navbar({ toggleMode, darkMode }: NavBarProps) {
           <FontAwesomeIcon icon={faClose} />
         </button>
         <div className="flex flex-col gap-4">
-          <NavLink path="#home" title="Home" />
-          <NavLink path="#skills" title="Skills" />
-          <NavLink path="#projects" title="Projects" />
-          <NavLink path="#services" title="Services" />
+          {navLinksArray.map((item) => (
+            <NavLink key={item.title} {...item} setNavOpen={setNavOpen} />
+          ))}
 
           <a
             href="#contact"
             className="w-full text-center border border-navbar-light-b dark:border-border-grey py-2 rounded-full font-semibold"
+            onClick={() => {
+              setNavOpen(false);
+            }}
           >
             Let's chat
           </a>

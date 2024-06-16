@@ -1,8 +1,10 @@
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
+import { Dispatch, SetStateAction } from "react";
 
 export interface NavLinkProps {
   path: string;
   title: string;
+  setNavOpen?: Dispatch<SetStateAction<boolean>>;
 }
 
 export interface ProjectCardProps {

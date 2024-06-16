@@ -59,6 +59,13 @@ export const projectsArray: ProjectCardProps[] = [
   },
 ];
 
+export const navLinksArray = [
+  { path: "#home", title: "Home" },
+  { path: "#skills", title: "Skills" },
+  { path: "#projects", title: "Projects" },
+  { path: "#service", title: "Services" },
+];
+
 export const skillsArray: SkillCardProps[] = [
   { title: "HTML", image: "/images/skills/html.png" },
   { title: "CSS", image: "/images/skills/css.png" },
