@@ -116,7 +116,7 @@ export const inputsArray: LabeledInputProps[] = [
 ];
 
 export const socialMediaLinksArray: SocialMediaLinksProps[] = [
-  { icon: faGithub, path: "a" },
-  { icon: faInstagram, path: "b" },
-  { icon: faXTwitter, path: "c" },
+  { icon: faGithub, path: "https://github.com/ib-ahmedd" },
+  { icon: faXTwitter, path: "https://twitter.com/_ib_ahmed_" },
+  { icon: faInstagram, path: "https://www.instagram.com/_ib_ahmed/" },
 ];
