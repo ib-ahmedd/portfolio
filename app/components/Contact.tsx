@@ -77,7 +77,10 @@ function Contact() {
   }
 
   return (
-    <section className="w-full px-4 sm:px-8 md:px-24 py-12 md:py-32">
+    <section
+      className="w-full px-4 sm:px-8 md:px-24 py-12 md:py-32"
+      id="contact"
+    >
       {!messageSent && (
         <form
           className="flex flex-col gap-4 w-full md:max-w-[35em] rounded-xl"
