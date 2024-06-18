@@ -70,6 +70,7 @@ export const skillsArray: SkillCardProps[] = [
   { title: "HTML", image: "/images/skills/html.png" },
   { title: "CSS", image: "/images/skills/css.png" },
   { title: "Javascript", image: "/images/skills/javascript.png" },
+  { title: "Typescript", image: "/images/skills/typescript.png" },
   { title: "Jquery", image: "/images/skills/jquery.png" },
   { title: "NodeJS", image: "/images/skills/nodejs.png" },
   { title: "ReactJS", image: "/images/skills/react.png" },
