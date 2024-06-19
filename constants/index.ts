@@ -63,7 +63,7 @@ export const navLinksArray = [
   { path: "#home", title: "Home" },
   { path: "#skills", title: "Skills" },
   { path: "#projects", title: "Projects" },
-  { path: "#service", title: "Services" },
+  { path: "#services", title: "Services" },
 ];
 
 export const skillsArray: SkillCardProps[] = [
