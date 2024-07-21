@@ -1,6 +1,7 @@
 import {
   faGithub,
   faInstagram,
+  faLinkedin,
   faSearchengin,
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
@@ -127,4 +128,8 @@ export const socialMediaLinksArray: SocialMediaLinksProps[] = [
   { icon: faGithub, path: "https://github.com/ib-ahmedd" },
   { icon: faXTwitter, path: "https://twitter.com/_ib_ahmed_" },
   { icon: faInstagram, path: "https://www.instagram.com/_ib_ahmed/" },
+  {
+    icon: faLinkedin,
+    path: "https://www.linkedin.com/in/ahmed-ibrahim-923246315/",
+  },
 ];
