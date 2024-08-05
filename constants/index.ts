@@ -41,16 +41,16 @@ export const projectsArray: ProjectCardProps[] = [
     link: "http://urban-nest-lime.vercel.app",
   },
   {
-    title: "Roadrunner",
-    image: "/images/portfolio/roadrunner.png",
-    bgClassName: "roadrunner-bg",
-    link: "http://ib-ahmedd.github.io/Roadrunner",
-  },
-  {
     title: "Travel Tourism",
     image: "/images/portfolio/travel-tourism.png",
     bgClassName: "travel-tourism-bg",
     link: "http://travel-tourism-iota.vercel.app",
+  },
+  {
+    title: "Roadrunner",
+    image: "/images/portfolio/roadrunner.png",
+    bgClassName: "roadrunner-bg",
+    link: "http://ib-ahmedd.github.io/Roadrunner",
   },
   {
     title: "Coffee Shop",
