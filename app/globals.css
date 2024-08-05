@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.print-bg {
+  @apply bg-gradient-to-bl from-white to-[#ff5151] via-[#415161];
+}
+
 .plashoes-bg {
   @apply bg-gradient-to-tr from-white to-[#6b4739] via-[#293438];
 }
