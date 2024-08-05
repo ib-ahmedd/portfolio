@@ -25,13 +25,13 @@ export const projectsArray: ProjectCardProps[] = [
   {
     title: "Print",
     image: "/images/portfolio/print.png",
-    bgClassName: "plashoes-bg",
+    bgClassName: "print-bg",
     link: "http://print-azure.vercel.app",
   },
   {
     title: "Plashoes",
     image: "/images/portfolio/plashoes.png",
-    bgClassName: "print-bg",
+    bgClassName: "plashoes-bg",
     link: "http://plashoes-demo.vercel.app",
   },
   {
