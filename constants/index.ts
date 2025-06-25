@@ -32,7 +32,7 @@ export const projectsArray: ProjectCardProps[] = [
     title: "Plashoes",
     image: "/images/portfolio/plashoes.png",
     bgClassName: "plashoes-bg",
-    link: "http://plashoes-demo.vercel.app",
+    link: "https://plashoes-ot62.vercel.app",
   },
   {
     title: "Urban Nest",
