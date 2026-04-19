@@ -31,3 +31,6 @@
 .promtopia-bg {
   @apply bg-gradient-to-b from-[#ee700c] via-[#fbfbfb] to-[#fbfbfb];
 }
+.bitpay-bg {
+  @apply bg-gradient-to-b from-[#db4b2c] via-[#232530] to-[#232530];
+}

@@ -64,6 +64,12 @@ export const projectsArray: ProjectCardProps[] = [
     bgClassName: "promtopia-bg",
     link: "http://promtopia-omega.vercel.app",
   },
+  {
+    title: "Bitpay",
+    image: "/images/portfolio/bitpay.png",
+    bgClassName: "bitpay-bg",
+    link: "https://bitpay-xhpr.vercel.app/auth",
+  },
 ];
 
 export const navLinksArray = [
@@ -82,12 +88,15 @@ export const skillsArray: SkillCardProps[] = [
   { title: "NodeJS", image: "/images/skills/nodejs.png" },
   { title: "ReactJS", image: "/images/skills/react.png" },
   { title: "NextJS", image: "/images/skills/nextjs.png" },
+  { title: "Redux", image: "/images/skills/redux.png" },
   { title: "Bootstrap", image: "/images/skills/bootstrap.png" },
   { title: "Tailwind", image: "/images/skills/tailwind.png" },
   { title: "PostgresSQL", image: "/images/skills/postgres.png" },
   { title: "MongoDB", image: "/images/skills/mongodb.png" },
   { title: "Dfinity", image: "/images/skills/dfinity.png" },
   { title: "Github", image: "/images/skills/github.png" },
+  { title: "Golang", image: "/images/skills/golang.png" },
+  { title: "Gin", image: "/images/skills/gin.png" },
 ];
 
 export const servicesArray: ServiceCardProps[] = [
