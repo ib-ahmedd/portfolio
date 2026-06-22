@@ -34,3 +34,7 @@
 .bitpay-bg {
   @apply bg-gradient-to-b from-[#db4b2c] via-[#232530] to-[#232530];
 }
+
+.toweasy-bg {
+  @apply bg-gradient-to-b from-[#ffff] to-[#ffcc00];
+}
