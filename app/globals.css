@@ -38,3 +38,7 @@
 .toweasy-bg {
   @apply bg-gradient-to-b from-[#ffff] to-[#ffcc00];
 }
+
+.road-rescue-bg {
+  @apply bg-gradient-to-br from-[#0a0e18] via-[#0a0e18] to-[#dd7c07];
+}

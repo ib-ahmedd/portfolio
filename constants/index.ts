@@ -23,6 +23,12 @@ import {
 
 export const projectsArray: ProjectCardProps[] = [
   {
+    title: "Road Rescue",
+    image: "/images/portfolio/road-rescue.png",
+    bgClassName: "road-rescue-bg",
+    link: "https://road-rescue-wheat.vercel.app",
+  },
+  {
     title: "Print",
     image: "/images/portfolio/print.png",
     bgClassName: "print-bg",
